@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>REST API Evaluator</h2>
+      <h2>REST API Evaluator for my new docker </h2>
 
       <input type="file" onChange={handleFileChange} />
       <button onClick={uploadOAS} disabled={loading}>Upload OAS</button>
